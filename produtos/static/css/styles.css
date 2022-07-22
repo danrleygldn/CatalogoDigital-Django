@@ -1,3 +1,83 @@
-h1 {
-    color: red;
+.container-fluid{
+    padding: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/*Botao adicionar*/
+
+.add-div{
+    background-color: #3476e2;
+    cursor: pointer;
+    display: block;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.bi.bi-plus-lg{
+    color: #FFF;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* Lista de Produtos */
+
+.list-div{
+    padding: 0;
+}
+
+.produto-list{
+    padding-left: 0;
+}
+
+.item-produto {
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+
+.bi.bi-pencil, .bi.bi-trash{
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+
+/* Rodapé */
+
+footer {
+    
+    background-color: #333;
+    height: 150px;
+    border-top: 2px solid #202020;
+}
+
+footer p {
+    color: antiquewhite;
+    text-align: center;
+    top: 30%;
+    position: relative;
 }
